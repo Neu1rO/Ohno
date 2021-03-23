@@ -214,12 +214,14 @@ end)
 --Other stuff--
 
 client:on('messageCreate', function(anukechannel)
-        cmd = anukechannel.content
-        mod = anukechannel.member.roles:find(function(m) return string.lower(m.name) == 'moderator' end)
-            if mod ~= nil and string.lower(mod.name) == "moderator" and cmd == "~setanukechannel" then
-                anukech = anukechannel.channel
-            end
-        end)
+    cmd = anukechannel.content
+        if anukechannel.member ~= nil then
+            mod = anukechannel.member.roles:find(function(m) return string.lower(m.name) == 'moderator' end)
+        end
+                if mod ~= nil and string.lower(mod.name) == "moderator" and cmd == "~setanukechannel" then
+                    anukech = anukechannel.channel
+                end
+end)
 
 client:on('messageCreate', function(anuk)
         anook = anuk.content
