@@ -2,6 +2,10 @@
 
 Ohno reaction discord bot
 
+Run legacybot.lua if you want older version of a bot with more entertaining things, legacybot will not be updated anymore
+
+Run bot.lua for a newer and supported version of a bot
+
 # Setup
 
 Make a folder for your bot, install everything in that folder (including bot file and config file)
