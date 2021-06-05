@@ -1,10 +1,10 @@
 # Ohno
 
-Ohno reaction discord bot
+Ohno reaction discord bot.
 
-Run legacybot.lua if you want older version of a bot with more entertaining things, legacybot will not be updated anymore
+Run legacybot.lua if you want older version of a bot with more entertaining things, this bot will probably not be updated anymore.
 
-Run bot.lua for a newer and supported version of a bot
+Run bot.lua for a newer version.
 
 # Setup
 
